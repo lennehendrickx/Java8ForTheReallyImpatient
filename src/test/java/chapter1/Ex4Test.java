@@ -18,9 +18,9 @@ public class Ex4Test {
     public TemporaryFolder folder = new TemporaryFolder();
 
     /**
-     * Given an array of File objects, sort it so that the directories come before the
-     * files, and within each group, elements are sorted by path name. Use a lambda
-     * expression, not a Comparator.
+     Given an array of File objects, sort it so that the directories come before the
+     files, and within each group, elements are sorted by path name. Use a lambda
+     expression, not a Comparator.
      */
     @Test
     public void testSortFiles_usingLambda() throws IOException {
